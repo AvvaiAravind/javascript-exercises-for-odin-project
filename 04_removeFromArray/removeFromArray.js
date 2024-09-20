@@ -16,5 +16,17 @@ const removeFromArray = function (arrays, ...value) {
   return result;
 };
 
+/* const removeFromArray = function (arrays, ...args) {
+  const newArray = [];
+  arrays.forEach((array) => {
+    if (!args.includes(array)) newArray.push(array);
+  });
+  return newArray;
+}; */
+
+/* const removeFromArray = function (arrays, ...args) {
+  const newArray = [];
+  return arrays.filter((array) => !args.includes(array));
+}; */
 // Do not edit below this line
 module.exports = removeFromArray;
