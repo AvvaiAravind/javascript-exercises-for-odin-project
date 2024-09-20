@@ -28,5 +28,12 @@ const sumAll = function (num1, num2) {
   return result;
 };
 
+/* if (min > max) {
+  const temp = min;
+  min = max;
+  max = temp;
+} */
+//Destructuring the array
+// if (min > max) [min, max] = [max, min];
 // Do not edit below this line
 module.exports = sumAll;
