@@ -8,7 +8,7 @@ const convertToCelsius = function (value) {
 const convertToFahrenheit = function (value) {
   let fahrenheit = (value * 9) / 5 + 32;
   fahrenheit = Math.round(fahrenheit * 10) / 10;
-  //return `${fahrenheit}°C`;
+  //return `${fahrenheit}°F`;
   return fahrenheit;
 };
 
